@@ -1,6 +1,6 @@
 # DB models
 from . import db  # from this package we import db object
-from flask_login import UserMixin
+from flask import UserMixin
 from sqlalchemy.sql import func
 
 
